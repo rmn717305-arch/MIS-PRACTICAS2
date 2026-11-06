@@ -51,7 +51,7 @@ function crearPagina(numero) {
         <h2>${titulo}</h2>
         <div class="contenedor-imagen">
             <img
-                src="./img/img-${numero}.jpeg"
+                src="./img-${numero}.jpeg"
                 alt="${titulo}"
                 loading="eager"
                 onerror="this.parentElement.innerHTML='<p style=&quot;color:#9b2452;text-align:center;font-size:13px&quot;>No se pudo cargar img-${numero}.jpeg</p>'"
